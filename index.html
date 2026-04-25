@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday 🎉</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: white;
+      margin-top: 100px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: white;
+      color: #ff5e78;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Happy Birthday 🎂</h1>
+  <p>Wishing you lots of happiness and smiles 😊</p>
+
+  <button onclick="showMsg()">Click Me 🎁</button>
+
+  <p id="msg" style="display:none;">
+    You’re really special ✨ Stay happy always!
+  </p>
+
+  <script>
+    function showMsg() {
+      document.getElementById("msg").style.display = "block";
+    }
+  </script>
+</body>
+</html>
